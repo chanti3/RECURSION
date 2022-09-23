@@ -1,0 +1,7 @@
+def fun(num):
+   if num == 0:
+       return 0
+   else:
+       return (num % 2)+10 *(fun(num//2))
+num=int(input())
+print(fun(num))
